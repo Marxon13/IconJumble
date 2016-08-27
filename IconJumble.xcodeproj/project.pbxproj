@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43147C621D68A82600EA93C6 /* IconJumbleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43147C611D68A82600EA93C6 /* IconJumbleScene.swift */; };
+		43147C6A1D68A8B100EA93C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43147C691D68A8B100EA93C6 /* AppDelegate.swift */; };
+		43147C6C1D68A8B100EA93C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43147C6B1D68A8B100EA93C6 /* Assets.xcassets */; };
+		43147C6F1D68A8B100EA93C6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43147C6D1D68A8B100EA93C6 /* MainMenu.xib */; };
+		43147C741D68A91800EA93C6 /* IconJumbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E22631D68A3300088DE0C /* IconJumbleView.swift */; };
+		43147C751D68A91800EA93C6 /* IconJumbleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43147C611D68A82600EA93C6 /* IconJumbleScene.swift */; };
+		43147C761D68A91800EA93C6 /* IconJumbleDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E22671D68A3700088DE0C /* IconJumbleDefaults.swift */; };
+		43147C771D68A91800EA93C6 /* IconJumbleConfigurationWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E22691D68A6940088DE0C /* IconJumbleConfigurationWindowController.swift */; };
+		43147C791D68B24400EA93C6 /* IconJumbleConfigurationWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43147C781D68B24400EA93C6 /* IconJumbleConfigurationWindow.xib */; };
+		43147C7B1D6A17F400EA93C6 /* Default Icons in Resources */ = {isa = PBXBuildFile; fileRef = 43147C7A1D6A17F400EA93C6 /* Default Icons */; };
+		43147C7C1D6A17F400EA93C6 /* Default Icons in Resources */ = {isa = PBXBuildFile; fileRef = 43147C7A1D6A17F400EA93C6 /* Default Icons */; };
+		435BF6F41D6A3FF90077DFE4 /* IconJumbleConfigurationWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43147C781D68B24400EA93C6 /* IconJumbleConfigurationWindow.xib */; };
+		435E22641D68A3300088DE0C /* IconJumbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E22631D68A3300088DE0C /* IconJumbleView.swift */; };
+		435E22681D68A3700088DE0C /* IconJumbleDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E22671D68A3700088DE0C /* IconJumbleDefaults.swift */; };
+		435E226A1D68A6940088DE0C /* IconJumbleConfigurationWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E22691D68A6940088DE0C /* IconJumbleConfigurationWindowController.swift */; };
+		EAAF61FB1D71FC380025D21E /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = EAAF61F91D71FC380025D21E /* thumbnail.png */; };
+		EAAF61FC1D71FC380025D21E /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAAF61FA1D71FC380025D21E /* thumbnail@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43147C611D68A82600EA93C6 /* IconJumbleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconJumbleScene.swift; sourceTree = "<group>"; };
+		43147C671D68A8B100EA93C6 /* IconJumbleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconJumbleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43147C691D68A8B100EA93C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43147C6B1D68A8B100EA93C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43147C6E1D68A8B100EA93C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		43147C701D68A8B100EA93C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43147C781D68B24400EA93C6 /* IconJumbleConfigurationWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IconJumbleConfigurationWindow.xib; sourceTree = "<group>"; };
+		43147C7A1D6A17F400EA93C6 /* Default Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Default Icons"; path = "Resources/Default Icons"; sourceTree = SOURCE_ROOT; };
+		435E22561D68A2D20088DE0C /* IconJumble.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconJumble.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		435E225D1D68A2D20088DE0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		435E22631D68A3300088DE0C /* IconJumbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconJumbleView.swift; sourceTree = "<group>"; };
+		435E22671D68A3700088DE0C /* IconJumbleDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconJumbleDefaults.swift; sourceTree = "<group>"; };
+		435E22691D68A6940088DE0C /* IconJumbleConfigurationWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconJumbleConfigurationWindowController.swift; sourceTree = "<group>"; };
+		EAAF61F91D71FC380025D21E /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thumbnail.png; path = Resources/thumbnail.png; sourceTree = SOURCE_ROOT; };
+		EAAF61FA1D71FC380025D21E /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumbnail@2x.png"; path = "Resources/thumbnail@2x.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43147C641D68A8B100EA93C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435E22521D68A2D20088DE0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43147C681D68A8B100EA93C6 /* IconJumbleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				43147C691D68A8B100EA93C6 /* AppDelegate.swift */,
+				43147C6B1D68A8B100EA93C6 /* Assets.xcassets */,
+				43147C6D1D68A8B100EA93C6 /* MainMenu.xib */,
+				43147C701D68A8B100EA93C6 /* Info.plist */,
+			);
+			path = IconJumbleDemo;
+			sourceTree = "<group>";
+		};
+		435E224C1D68A2D20088DE0C = {
+			isa = PBXGroup;
+			children = (
+				435E22581D68A2D20088DE0C /* IconJumble */,
+				43147C681D68A8B100EA93C6 /* IconJumbleDemo */,
+				435E22571D68A2D20088DE0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		435E22571D68A2D20088DE0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				435E22561D68A2D20088DE0C /* IconJumble.saver */,
+				43147C671D68A8B100EA93C6 /* IconJumbleDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		435E22581D68A2D20088DE0C /* IconJumble */ = {
+			isa = PBXGroup;
+			children = (
+				435E22651D68A33B0088DE0C /* Classes */,
+				435E22661D68A3400088DE0C /* Resources */,
+			);
+			path = IconJumble;
+			sourceTree = "<group>";
+		};
+		435E22651D68A33B0088DE0C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				435E22631D68A3300088DE0C /* IconJumbleView.swift */,
+				43147C611D68A82600EA93C6 /* IconJumbleScene.swift */,
+				435E22671D68A3700088DE0C /* IconJumbleDefaults.swift */,
+				435E22691D68A6940088DE0C /* IconJumbleConfigurationWindowController.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		435E22661D68A3400088DE0C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EAAF61F91D71FC380025D21E /* thumbnail.png */,
+				EAAF61FA1D71FC380025D21E /* thumbnail@2x.png */,
+				43147C7A1D6A17F400EA93C6 /* Default Icons */,
+				435E225D1D68A2D20088DE0C /* Info.plist */,
+				43147C781D68B24400EA93C6 /* IconJumbleConfigurationWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		435E22531D68A2D20088DE0C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		43147C661D68A8B100EA93C6 /* IconJumbleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43147C711D68A8B100EA93C6 /* Build configuration list for PBXNativeTarget "IconJumbleDemo" */;
+			buildPhases = (
+				43147C631D68A8B100EA93C6 /* Sources */,
+				43147C641D68A8B100EA93C6 /* Frameworks */,
+				43147C651D68A8B100EA93C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IconJumbleDemo;
+			productName = IconJumbleDemo;
+			productReference = 43147C671D68A8B100EA93C6 /* IconJumbleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		435E22551D68A2D20088DE0C /* IconJumble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435E22601D68A2D20088DE0C /* Build configuration list for PBXNativeTarget "IconJumble" */;
+			buildPhases = (
+				435E22511D68A2D20088DE0C /* Sources */,
+				435E22521D68A2D20088DE0C /* Frameworks */,
+				435E22531D68A2D20088DE0C /* Headers */,
+				435E22541D68A2D20088DE0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IconJumble;
+			productName = IconJumble;
+			productReference = 435E22561D68A2D20088DE0C /* IconJumble.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		435E224D1D68A2D20088DE0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Brandon McQuilkin";
+				TargetAttributes = {
+					43147C661D68A8B100EA93C6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3RCGQ2RRJJ;
+						ProvisioningStyle = Automatic;
+					};
+					435E22551D68A2D20088DE0C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3RCGQ2RRJJ;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 435E22501D68A2D20088DE0C /* Build configuration list for PBXProject "IconJumble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 435E224C1D68A2D20088DE0C;
+			productRefGroup = 435E22571D68A2D20088DE0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				435E22551D68A2D20088DE0C /* IconJumble */,
+				43147C661D68A8B100EA93C6 /* IconJumbleDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43147C651D68A8B100EA93C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43147C6C1D68A8B100EA93C6 /* Assets.xcassets in Resources */,
+				43147C7C1D6A17F400EA93C6 /* Default Icons in Resources */,
+				435BF6F41D6A3FF90077DFE4 /* IconJumbleConfigurationWindow.xib in Resources */,
+				43147C6F1D68A8B100EA93C6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435E22541D68A2D20088DE0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43147C7B1D6A17F400EA93C6 /* Default Icons in Resources */,
+				EAAF61FC1D71FC380025D21E /* thumbnail@2x.png in Resources */,
+				43147C791D68B24400EA93C6 /* IconJumbleConfigurationWindow.xib in Resources */,
+				EAAF61FB1D71FC380025D21E /* thumbnail.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43147C631D68A8B100EA93C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43147C741D68A91800EA93C6 /* IconJumbleView.swift in Sources */,
+				43147C771D68A91800EA93C6 /* IconJumbleConfigurationWindowController.swift in Sources */,
+				43147C751D68A91800EA93C6 /* IconJumbleScene.swift in Sources */,
+				43147C6A1D68A8B100EA93C6 /* AppDelegate.swift in Sources */,
+				43147C761D68A91800EA93C6 /* IconJumbleDefaults.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435E22511D68A2D20088DE0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435E22641D68A3300088DE0C /* IconJumbleView.swift in Sources */,
+				435E22681D68A3700088DE0C /* IconJumbleDefaults.swift in Sources */,
+				43147C621D68A82600EA93C6 /* IconJumbleScene.swift in Sources */,
+				435E226A1D68A6940088DE0C /* IconJumbleConfigurationWindowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43147C6D1D68A8B100EA93C6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43147C6E1D68A8B100EA93C6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43147C721D68A8B100EA93C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = 3RCGQ2RRJJ;
+				INFOPLIST_FILE = IconJumbleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrandonMcQuilkin.IconJumbleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		43147C731D68A8B100EA93C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = 3RCGQ2RRJJ;
+				INFOPLIST_FILE = IconJumbleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrandonMcQuilkin.IconJumbleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		435E225E1D68A2D20088DE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		435E225F1D68A2D20088DE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		435E22611D68A2D20088DE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = 3RCGQ2RRJJ;
+				INFOPLIST_FILE = IconJumble/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrandonMcQuilkin.IconJumble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		435E22621D68A2D20088DE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = 3RCGQ2RRJJ;
+				INFOPLIST_FILE = IconJumble/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrandonMcQuilkin.IconJumble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43147C711D68A8B100EA93C6 /* Build configuration list for PBXNativeTarget "IconJumbleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43147C721D68A8B100EA93C6 /* Debug */,
+				43147C731D68A8B100EA93C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435E22501D68A2D20088DE0C /* Build configuration list for PBXProject "IconJumble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435E225E1D68A2D20088DE0C /* Debug */,
+				435E225F1D68A2D20088DE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435E22601D68A2D20088DE0C /* Build configuration list for PBXNativeTarget "IconJumble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435E22611D68A2D20088DE0C /* Debug */,
+				435E22621D68A2D20088DE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 435E224D1D68A2D20088DE0C /* Project object */;
+}
